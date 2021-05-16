@@ -1,5 +1,92 @@
+/* Global */
 body{
-    margin 0;
     padding: 0;
     background-color:blanchedalmond;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+}
+
+li{
+    list-style: none;
+}
+
+/* Header */
+
+header{
+    position: relative;
+    margin: 10px;
+}
+
+h1{
+    display: inline-block;
+    padding: 16px;
+    position: absolute;
+    left: 10%;
+}
+header .image{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    right: 4%;
+}
+
+header .image img{
+    border-radius: 100%;
+}
+
+/* Section */
+
+section{
+    position: relative;
+    margin: 10px;
+}
+
+section .image{
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    position: absolute;
+    right: 45%;
+}
+
+section h3{
+    display: inline-block;
+    padding: 16px;
+    position: absolute;
+}
+
+section ul{
+    width: fit-content;
+    padding: auto;
+}
+
+
+
+/* Footer */
+
+footer{
+    position: relative;
+    margin: 10px;
+}
+
+footer .image{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+}
+
+footer .image img{
+    border-radius: 100%;
+}
+
+#redes{
+    margin: 10px;
+    position: absolute;
+    right: 0%;
 }
