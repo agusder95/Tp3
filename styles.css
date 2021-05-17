@@ -1,5 +1,136 @@
+/* Global */
 body{
-    margin 0;
     padding: 0;
     background-color:blanchedalmond;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+}
+
+li{
+    list-style: none;
+}
+
+/* Header */
+
+header{
+    position: relative;
+    height: 100px;
+    background-color: cadetblue;
+}
+
+h1{
+    padding: 16px;
+    position: absolute;
+    left: 10%;
+}
+header .image{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 4%;
+    top: 0%;
+}
+
+header .image img{
+    border-radius: 100%;
+}
+
+/* Section */
+
+section{
+    position: relative;
+    height: 500px;
+    margin: 46px;
+    background-color: burlywood;
+}
+
+section h2{
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    right: 0%;
+    text-align: center;
+}
+
+section .image{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: 45%;
+}
+
+section h3{
+    padding: 16px;
+    top: 26%;
+    left: 4%;
+    position: absolute;
+}
+
+section .lista{
+    padding: 5px;
+    position: absolute;
+    top: 40%;
+    left: 7%;
+}
+
+section ul{
+    width: fit-content;
+    padding: auto;
+}
+
+section span{
+    color: darkblue;
+    font-size: 18px;
+}
+
+section p{
+    margin-left: 9px;
+}
+
+
+/* Footer */
+
+footer{
+    height: 80px;
+    margin: 10px;
+    position: relative;
+    background-color: cadetblue;
+}
+
+footer .image{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 0%;
+}
+
+footer .image img{
+    border-radius: 100%;
+}
+
+#redes{
+    margin: 10px;
+    position: absolute;
+    right: 0%;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 3px;
+}
+
+/* Style Foot Links */
+footer a:visited{
+    color: darkred;
+}
+
+footer a:hover{
+    color: forestgreen;
+}
+
+footer a:active{
+    color: gold;
 }
