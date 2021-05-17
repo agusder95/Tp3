@@ -17,21 +17,21 @@ li{
 
 header{
     position: relative;
-    margin: 10px;
+    height: 100px;
+    background-color: cadetblue;
 }
 
 h1{
-    display: inline-block;
     padding: 16px;
     position: absolute;
     left: 10%;
 }
 header .image{
+    position: absolute;
     width: 100px;
     height: 100px;
-    display: inline-block;
-    position: absolute;
     right: 4%;
+    top: 0%;
 }
 
 header .image img{
@@ -42,21 +42,38 @@ header .image img{
 
 section{
     position: relative;
-    margin: 10px;
+    height: 500px;
+    margin: 46px;
+    background-color: burlywood;
+}
+
+section h2{
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    right: 0%;
+    text-align: center;
 }
 
 section .image{
     width: 120px;
     height: 120px;
-    display: inline-block;
     position: absolute;
     right: 45%;
 }
 
 section h3{
-    display: inline-block;
     padding: 16px;
+    top: 26%;
+    left: 4%;
     position: absolute;
+}
+
+section .lista{
+    padding: 5px;
+    position: absolute;
+    top: 40%;
+    left: 7%;
 }
 
 section ul{
@@ -64,19 +81,28 @@ section ul{
     padding: auto;
 }
 
+section span{
+    color: darkblue;
+    font-size: 18px;
+}
+
+section p{
+    margin-left: 9px;
+}
 
 
 /* Footer */
 
 footer{
-    position: relative;
+    height: 80px;
     margin: 10px;
+    position: relative;
+    background-color: cadetblue;
 }
 
 footer .image{
     width: 80px;
     height: 80px;
-    display: inline-block;
     position: absolute;
     left: 0%;
 }
@@ -89,4 +115,21 @@ footer .image img{
     margin: 10px;
     position: absolute;
     right: 0%;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 3px;
+}
+
+footer a:visited{
+    color: darkred;
+}
+
+footer a:hover{
+    color: forestgreen;
+}
+
+footer a:active{
+    color: gold;
 }
